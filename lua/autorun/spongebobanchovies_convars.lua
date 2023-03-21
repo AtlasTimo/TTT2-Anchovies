@@ -1,6 +1,6 @@
 SPONGEBOB_ANCHOVIES = SPONGEBOB_ANCHOVIES or {}
 SPONGEBOB_ANCHOVIES.CVARS = SPONGEBOB_ANCHOVIES.CVARS or {}
-
+--test
 local use_german_sound = CreateConVar("ttt_spongebobanchovies_use_german_sound", "0", {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED})
 local use_alt_sound_only = CreateConVar("ttt_spongebobanchovies_use_only_alt_sound", "0", {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED})
 local use_max_hits = CreateConVar("ttt_spongebobanchovies_activate_max_hits", "1", {FCVAR_NOTIFY, FCVAR_ARCHIVE, FCVAR_REPLICATED})
